@@ -84,6 +84,11 @@ EP 12 : Building our store (Redux)
  -> While subscribing to the store using selector, always subscribe to a needfull portion of the store instead of whole store.
  -> to read the state in console use "current (state)"
 
+EP 13 : testing
+ -> Unit testing(testing a single unit or component)
+ -> Integration testing(testing of multiple components)
+ -> End to end (whole application flow testing) 
+
 
 
 
