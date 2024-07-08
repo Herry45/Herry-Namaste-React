@@ -11,3 +11,13 @@ test("Should load contact component",()=>{
   expect(heading).toBeInTheDocument();
 
 })
+
+test("Should load button inside contact component",()=>{
+  render(<Contact/>);
+
+  const button = screen.getByRole("button");
+
+  //Assertion
+  expect(button).toBeInTheDocument();
+
+})

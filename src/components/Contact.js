@@ -16,8 +16,9 @@ const Contact = () =>{
 
 
     return(
-        <div className="font-bold text-3xl text-center">
-            <h1>Contact Us</h1>
+        <div className="text-center">
+            <h1 className="font-bold text-3xl text-center">Contact Us</h1>
+            <button className="bg-red-700 text-white rounded-md p-1 m-5"> submit</button>
         </div>
     )
 }
