@@ -95,7 +95,7 @@ EP 13 : testing
                            - configure babel 
                            - configure parcel config file to disable default babel transpilation.
                            - jest configuration 
-                           - install jsdom library
+                           - install jsdom library 
 
 
 
