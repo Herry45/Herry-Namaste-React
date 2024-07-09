@@ -98,6 +98,8 @@ EP 13 : testing
                            - install jsdom library 
                            - install babel preset react library
                            - install @testing-library/jest-dom
+ -> add in package.json/scripts : "watch-test": "jest --watch"- this will re-run tests automatically when we save the code
+ -> When testing, code that causes React state updates should be wrapped into act(...): act comes from react-dom/test-utils.
 
 
 

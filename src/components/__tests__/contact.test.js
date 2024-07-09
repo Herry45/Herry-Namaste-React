@@ -20,4 +20,4 @@ test("Should load button inside contact component",()=>{
   //Assertion
   expect(button).toBeInTheDocument();
 
-})
+})  

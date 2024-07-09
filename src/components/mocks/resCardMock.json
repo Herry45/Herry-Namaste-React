@@ -1,0 +1,79 @@
+{
+  "info": {
+      "id": "691838",
+      "name": "La Pino'z Pizza",
+      "cloudinaryImageId": "5fe4444a065b60c4fe39ef975222c12b",
+      "locality": "Clover Park",
+      "areaName": "Viman Nagar",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+          "Pizzas",
+          "Pastas",
+          "Italian",
+          "Desserts",
+          "Beverages"
+      ],
+      "avgRating": 4.1,
+      "parentId": "4961",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "1K+",
+      "sla": {
+          "deliveryTime": 29,
+          "lastMileTravel": 3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "3.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+          "nextCloseTime": "2024-07-10 02:45:00",
+          "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+          "entityBadges": {
+              "imageBased": {},
+              "textBased": {},
+              "textExtendedBadges": {}
+          }
+      },
+      "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+      },
+      "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+      },
+      "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+              "lottie": {},
+              "video": {}
+          }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {},
+      "externalRatings": {
+          "aggregatedRating": {
+              "rating": "--"
+          }
+      },
+      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {
+      "context": "seo-data-a870b9e0-d281-46cd-a916-dd01d78baca5"
+  },
+  "cta": {
+      "link": "https://www.swiggy.com/restaurants/la-pinoz-pizza-clover-park-viman-nagar-pune-691838",
+      "text": "RESTAURANT_MENU",
+      "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
