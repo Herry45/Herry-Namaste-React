@@ -14,27 +14,28 @@ global.fetch = jest.fn(()=>{
   })
 });
 
-it("should render the body component",async()=>{
+it("should search reslist for pizza text input",async()=>{
 
   //  When testing, code that causes React state updates should be wrapped into act(...):
-  await act(async()=>{
+  await act(async()=>
     render(
       <BrowserRouter>
         <Body/>
       </BrowserRouter>
-    );
+    )
+  )
 
-    screen.debug();
-    // const searchBtn = screen.getByRole("button");
-    // const searchInput = screen.getByTestId("searchInput");
+    const cardsBeforeSearch = screen.getAllByTestId("resCard");
+    expect(cardsBeforeSearch.length).toBe(8);
 
-    // fireEvent.change(searchInput,{target: { value:"pizza"}});
-    // fireEvent.click(searchBtn);
+    const searchBtn = screen.getByRole("button",{name:"Search"});
+    const searchInput = screen.getByTestId("searchInput");
 
-    // const cards = screen.getAllByTestId("resCard");
+    fireEvent.change(searchInput,{target: { value:"pizza"}});
+    fireEvent.click(searchBtn);
 
-
-    // expect(cards.length).toBe(2);
-  })
+    const cardsAfterSearch = screen.getAllByTestId("resCard");
+    expect(cardsAfterSearch.length).toBe(2);
+  
   
 });

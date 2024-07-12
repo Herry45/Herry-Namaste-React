@@ -20,16 +20,16 @@ const Header = () =>{
             </div>
             <div className="flex items-center">
                 <ul className="flex m-4 p-4 gap-4">
-                    <li>Status : {onlineStatus ? "✅ ": "🔴"}</li>
-                    <li><Link to="/" className="nav-links">Home</Link></li>
-                    <li><Link to="/about" className="nav-links">About Us</Link> </li>
-                    <li><Link to="/contact" className="nav-links">Contact Us</Link></li>
-                    <li><Link to="/grocery" className="nav-links">Groceries</Link></li>
-                    <li> <Link to="/cart">Cart ({cartItems.length})</Link></li>
-                    <button className="login" onClick={ ()=>{
+                    <li className="font-bold">Status : {onlineStatus ? "✅ ": "🔴"}</li>
+                    <li><Link to="/" className="nav-links font-bold">Home</Link></li>
+                    <li><Link to="/about" className="nav-links font-bold">About Us</Link> </li>
+                    <li><Link to="/contact" className="nav-links font-bold">Contact Us</Link></li>
+                    <li><Link to="/grocery" className="nav-links font-bold">Groceries</Link></li>
+                    <li className="font-bold"> <Link to="/cart">Cart ({cartItems.length})</Link></li>
+                    <button className="login font-bold" onClick={ ()=>{
                         btnName ==="Login" ? setBtnName("Logout"): setBtnName("Login") }} >
                         {btnName}</button>
-                    <li>{loggedInUser}</li>
+                    <li className="font-bold">{loggedInUser}</li>
                 </ul>
             </div>
         </div>
