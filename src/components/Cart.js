@@ -21,7 +21,7 @@ const Cart = () =>{
                     cartItems.length ===0 ? <p>Cart is empty. Add items to the cart.</p> : 
                     <div className="w-6/12 m-auto"> 
                         <ItemList items={cartItems}></ItemList>
-                        <button className="bg-black text-white m-4 p-1 rounded-lg"  onClick={handleClearCart}> Clear Cart</button>
+                        <button className="bg-black text-white m-4 p-1 rounded-lg"  onClick={handleClearCart}>Clear Cart</button>
                     </div>    
                 }
             </div>
